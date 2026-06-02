@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automated Feedback Analysis Workflow</title>
+</head>
+
+<body>
+
+<a href="index.html">Back to Home</a>
+
+<h1>Automated Feedback Analysis Workflow</h1>
+
+<h2>Business Problem</h2>
+<p>
+Customer feedback collected through Google Forms required manual review, categorization, and tracking. This created delays, inconsistent analysis, and increased the risk of missing important customer concerns.
+</p>
+
+<h2>Solution</h2>
+<p>
+Built an AI-powered workflow that automatically analyzes customer feedback, classifies sentiment, generates summaries, updates Google Sheets, and sends email alerts for negative feedback.
+</p>
+
+<h2>Workflow</h2>
+<p>
+The workflow starts when a new Google Forms response is submitted. The data is sent through Gemini AI for sentiment analysis and summarization, parsed as JSON, matched to the correct Google Sheets row, and written back to the spreadsheet. Negative feedback is filtered and sent as a Gmail alert.
+</p>
+
+<h2>Tools Used</h2>
+<ul>
+<li>Make</li>
+<li>Google Forms</li>
+<li>Google Sheets</li>
+<li>Gemini AI</li>
+<li>JSON parsing</li>
+<li>Gmail</li>
+<li>Workflow automation</li>
+</ul>
+
+<h2>Key Features</h2>
+<ul>
+<li>Automatic sentiment classification</li>
+<li>AI-generated feedback summaries</li>
+<li>JSON parsing of AI output</li>
+<li>Google Sheets row matching</li>
+<li>Automated spreadsheet updates</li>
+<li>Email alerts for negative feedback</li>
+</ul>
+
+<h2>Business Impact</h2>
+<ul>
+<li>Reduced manual feedback review</li>
+<li>Improved response tracking</li>
+<li>Created faster visibility into negative feedback</li>
+<li>Improved consistency of customer feedback analysis</li>
+<li>Demonstrated how AI can support operational decision-making</li>
+</ul>
+
+<h2>Challenges Solved</h2>
+<p>
+The biggest challenge was getting the workflow to update the correct row in Google Sheets. I had to troubleshoot filter configuration, row matching, dynamic field mapping, and exact text matching. Once corrected, the system successfully analyzed submissions, updated records, and sent negative feedback alerts.
+</p>
+
+<a href="automated-feedback-analysis-workflow.pdf">Download Full Case Study PDF</a>
+
+</body>
+</html>
